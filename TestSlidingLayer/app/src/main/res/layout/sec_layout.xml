@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.example.pc.testslidinglayer.PinnedHeaderListView
+        android:id="@+id/pinned_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.example.pc.testslidinglayer.PinnedHeaderListView>
+
+    <com.example.pc.testslidinglayer.FancyIndexer
+        android:id="@+id/fancy_indexer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tipFontColor="#ff808b"
+        app:maxFontSize="900"
+        app:minFontSize="40" />
+</FrameLayout>
